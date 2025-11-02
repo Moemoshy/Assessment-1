@@ -1,15 +1,3 @@
-# Exercise 2 - Alexa tell me a Joke
-# Your solution must be no more than 100 lines of code.
-# The randomJokes.txt file in the resources folder contains a dataset of random jokes.
-# Each joke is on a new line and consists of a setup and punchline separated by a question mark.
-# For example:
-# - Why did the chicken cross the road?To get to the other side.
-# - What happens if you boil a clown?You get a laughing stock.
-# Write a program that when prompted with the phrase "Alexa tell me a Joke" responds with a 
-# random joke from the dataset. The program should first present the setup then allow the user 
-# to enter a key to display the punchline.
-# The user should be able to continue requesting new jokes until they decide to quit the program.
-
 def file_handle_jokes():
     jokes = []
     try:
@@ -62,3 +50,6 @@ def main():
             print("Alexa: INVALID. TYPE 'Alexa tell me a joke'.\n")
 
 
+
+if __name__ == "__main__":
+    main()
