@@ -1,6 +1,5 @@
 import random
 
-
 # Display Menu
 def displayMenu():
     print("\nDIFFICULTY LEVEL")
